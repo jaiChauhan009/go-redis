@@ -1,0 +1,14 @@
+
+Server listens on port `6380`.
+
+## Supported Commands
+
+- `SET key value [EX seconds | PX milliseconds] [NX|XX]`
+- `GET key`
+- `DEL key [key ...]`
+- `QUIT`
+
+## TODO
+
+- Add unit tests
+- Support for more commands
